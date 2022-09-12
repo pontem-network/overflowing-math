@@ -26,6 +26,10 @@ The lib has similar to Rust wrapping math functions and more complex low-level f
 
     aptos move prove
 
+The proving is currently disabled because of bitwise operations in multiple, which Move prover doesn't support. We hope it
+will be resolved soon. For now, if you want to check how the prover works, comment `mul` function and related, after
+enable verification in specs.
+
 ## Add as dependency
 
 Add to `Move.toml`:
