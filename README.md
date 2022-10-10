@@ -37,7 +37,7 @@ Add to `Move.toml`:
 ```toml
 [dependencies.OverflowingMath]
 git = "https://github.com/pontem-network/overflowing-math.git"
-rev = "v0.1.0"
+rev = "v0.2.0"
 ```
 
 And then use in code:
